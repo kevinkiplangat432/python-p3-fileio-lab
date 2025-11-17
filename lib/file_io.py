@@ -11,6 +11,6 @@ def append_file(file_name, append_content):
 def read_file(file_name):
     new_file_name =f"{file_name}.txt"
     with open(new_file_name, mode ="r") as file:
-
+        # read a file content first
         file_content = file.read()
         return file_content 
